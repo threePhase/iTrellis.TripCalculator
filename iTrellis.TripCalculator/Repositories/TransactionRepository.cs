@@ -2,7 +2,9 @@
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
+using System.Data.Entity.Infrastructure;
 using System.Linq;
+using System.Threading.Tasks;
 using System.Web;
 
 namespace iTrellis.TripCalculator.Repositories
@@ -11,10 +13,10 @@ namespace iTrellis.TripCalculator.Repositories
     {
         private TransactionsContext db = new TransactionsContext();
 
-        public void Add(Transaction transaction)
+        public async Task<int> Add(Transaction transaction)
         {
             db.Transactions.Add(transaction);
-            db.SaveChanges();
+            return await db.SaveChangesAsync();
         }
 
         protected void Dispose(bool disposing)
@@ -40,9 +42,9 @@ namespace iTrellis.TripCalculator.Repositories
             return db.Transactions;
         }
 
-        public Transaction GetById(int id)
+        public async Task<Transaction> GetById(int id)
         {
-            return db.Transactions.FirstOrDefault(t => t.Id == id);
+            return await db.Transactions.FindAsync(id);
         }
 
         public IEnumerable<Transaction> GetByOwner(string owner)
@@ -51,6 +53,40 @@ namespace iTrellis.TripCalculator.Repositories
                 // have to use ToLower here because using 3 argument string
                 // equals is not supported at database
                 string.Equals(t.Owner.ToLower(), owner.ToLower())).ToList();
+        }
+
+        public async Task<Transaction> Remove(int id)
+        {
+            var transaction = await GetById(id);
+            db.Transactions.Remove(transaction);
+            await db.SaveChangesAsync();
+            return transaction;
+        }
+
+        private bool TransactionExists(int id)
+        {
+            return db.Transactions.Count(e => e.Id == id) > 0;
+        }
+
+        public async Task<bool> Update(Transaction transaction)
+        {
+            db.Entry(transaction).State = EntityState.Modified;
+
+            try
+            {
+                return await db.SaveChangesAsync() > 0;
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!TransactionExists(transaction.Id))
+                {
+                    return false;
+                }
+                else
+                {
+                    throw;
+                }
+            }
         }
     }
 }

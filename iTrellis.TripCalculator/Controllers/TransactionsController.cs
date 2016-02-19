@@ -6,6 +6,8 @@ using System.Net.Http;
 using System.Web.Http;
 using iTrellis.TripCalculator.Models;
 using iTrellis.TripCalculator.Repositories;
+using System.Web.Http.Description;
+using System.Threading.Tasks;
 
 namespace iTrellis.TripCalculator.Controllers
 {
@@ -23,20 +25,19 @@ namespace iTrellis.TripCalculator.Controllers
             this.repo = repo;
         }
 
+        // GET api/transactions
         [Route("")]
         public IEnumerable<Transaction> GetAllTransactions()
         {
             return this.repo.GetAll();
         }
 
+        // GET api/transactions/5
         [Route("{id:int}")]
-        public IHttpActionResult GetTransaction(int id)
+        [ResponseType(typeof(Transaction))]
+        public async Task<IHttpActionResult> GetTransaction(int id)
         {
-            if (id <= 0)
-            {
-                return BadRequest("Id must be greater than zero");
-            }
-            var transaction = this.repo.GetById(id);
+            Transaction transaction = await this.repo.GetById(id);
             if (transaction == null)
             {
                 return NotFound();
@@ -45,6 +46,8 @@ namespace iTrellis.TripCalculator.Controllers
             return Ok(transaction);
         }
 
+
+        // GET api/transactions
         [Route("{owner}")]
         public IHttpActionResult GetTransactionsByOwner(string owner)
         {
@@ -58,6 +61,58 @@ namespace iTrellis.TripCalculator.Controllers
             }
         }
 
+        // PUT api/transactions/5
+        public async Task<IHttpActionResult> PutTransaction(int id, Transaction transaction)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            transaction.Id = id;
+
+            bool updated = await this.repo.Update(transaction);
+
+            if (updated)
+            {
+                return StatusCode(HttpStatusCode.NoContent);
+            }
+            else
+            {
+                return NotFound();
+            }
+
+        }
+
+        // POST api/transactions
+        [ResponseType(typeof(Transaction))]
+        public async Task<IHttpActionResult> PostTransaction(Transaction transaction)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            await this.repo.Add(transaction);
+
+            return CreatedAtRoute("DefaultApi", new { id = transaction.Id }, transaction);
+        }
+
+        // DELETE api/transactions/5
+        [ResponseType(typeof(Transaction))]
+        public async Task<IHttpActionResult> DeleteTransaction(int id)
+        {
+            var transaction = await this.repo.Remove(id);
+            if (transaction == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(transaction);
+        }
+
+
+        // GET api/calculate
         [Route("~/api/calculate")]
         public IEnumerable<string> GetSplits()
         {

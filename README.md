@@ -59,5 +59,6 @@ of each of the API functions.
 
 To run the sample, simply begin debugging the project (by pressing F5 after
 opening the project in Visual Studio). After starting the project a sample
-database will be created on LocalDb which is seeded with some test data. Switch
-to Release config to prevent database from being seeded with test data.
+database will be created on LocalDb (called TransactionContext) which is seeded
+with some test data. Switch to Release config to prevent database from being
+seeded.

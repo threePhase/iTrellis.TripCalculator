@@ -9,9 +9,11 @@ namespace iTrellis.TripCalculator.Repositories
 {
     public interface ITransactionRepository
     {
-        void Add(Transaction transaction);
+        Task<int> Add(Transaction transaction);
         IEnumerable<Transaction> GetAll();
-        Transaction GetById(int id);
+        Task<Transaction> GetById(int id);
         IEnumerable<Transaction> GetByOwner(string owner);
+        Task<Transaction> Remove(int id);
+        Task<bool> Update(Transaction transaction);
     }
 }
