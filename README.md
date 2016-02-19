@@ -13,8 +13,6 @@ individual spent while on a trip.
 The following format is used for all API calls:
 `api/transactions/(id)` or `api/calculate`
 
-- Calculate
-
 ### Transactions ###
 **endpoint**: `api/transactions`
 
@@ -31,10 +29,10 @@ Field|Description
 The following functions are exposed for transactions:
 
 - Add Transaction - **POST** `api/transactions`
-- Update Transaction **PUT** `api/transactions/{id:int}`
-- Remove Transaction **DELETE** `api/transactions/{id:int}`
+- Update Transaction - **PUT** `api/transactions/{id:int}`
+- Remove Transaction - **DELETE** `api/transactions/{id:int}`
 - Read Transaction - **GET** `api/transactions/{id:int}`
-- Read all Transaction owned by a given **owner**- **GET** `api/transactions/{owner:string}`
+- Read all Transaction owned by a given **owner** - **GET** `api/transactions/{owner:string}`
 - Read all Transactions - **GET** `api/transactions`
 
 For example, a transaction can be retrieved by sending a GET request to:
@@ -47,7 +45,7 @@ transaction you wish you view.
 Calculates the appropriate split based on all currently available transactions.
 
 Unlike transactions, Calculate only exposes a single function at the top-level
-of the endpoint: 
+of the endpoint:
 
 - Calculate Split - **GET** `api/calculate`
 
