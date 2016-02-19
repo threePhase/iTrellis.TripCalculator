@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Trip Calculator</title>
+</head>
+<body>
+    <div>
+        <h2>All Transactions</h2>
+        <ul class="transactions" />
+    </div>
+    <div>
+        <h2>Search By ID</h2>
+        <input type="text" id="transactionId" size="5" />
+        <input type="button" value="Search" onclick="lookupById();" />
+        <p class="transaction" />
+    </div>
+    <div>
+        <h2>Search By Owner</h2>
+        <input type="text" id="transactionOwner" size="5" />
+        <input type="button" value="Search" onclick="lookupByOwner();" />
+        <ul class="transactionsByOwner" />
+    </div>
+    <div>
+        <h2>Trip Calculator</h2>
+        <input type="button" value="Calculate Split" onclick="getSplits();" />
+        <ul class="splits" />
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

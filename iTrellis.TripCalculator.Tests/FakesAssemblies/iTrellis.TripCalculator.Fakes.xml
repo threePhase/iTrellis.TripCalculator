@@ -1,0 +1,1211 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>iTrellis.TripCalculator.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:iTrellis.TripCalculator.Controllers.Fakes.ShimTransactionsController">
+            <summary>Shim type of iTrellis.TripCalculator.Controllers.TransactionsController</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.ShimTransactionsController.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.ShimTransactionsController.#ctor(iTrellis.TripCalculator.Controllers.TransactionsController)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.ShimTransactionsController.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.ShimTransactionsController.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.ShimTransactionsController.Bind(System.Web.Http.Controllers.IHttpController)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.ShimTransactionsController.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Controllers.Fakes.ShimTransactionsController.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Controllers.Fakes.ShimTransactionsController.Constructor">
+            <summary>Sets the shim of TransactionsController.TransactionsController()</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Controllers.Fakes.ShimTransactionsController.ConstructorITransactionRepository">
+            <summary>Sets the shim of TransactionsController.TransactionsController(ITransactionRepository repo)</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Controllers.Fakes.ShimTransactionsController.GetAllTransactions">
+            <summary>Sets the shim of TransactionsController.GetAllTransactions()</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Controllers.Fakes.ShimTransactionsController.GetSplits">
+            <summary>Sets the shim of TransactionsController.GetSplits()</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Controllers.Fakes.ShimTransactionsController.GetTransactionInt32">
+            <summary>Sets the shim of TransactionsController.GetTransaction(Int32 id)</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Controllers.Fakes.ShimTransactionsController.GetTransactionsByOwnerString">
+            <summary>Sets the shim of TransactionsController.GetTransactionsByOwner(String owner)</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Controllers.Fakes.ShimTransactionsController._GetSplitsb__0Split">
+            <summary>Sets the shim of TransactionsController.&lt;GetSplits&gt;b__0(Split s)</summary>
+        </member>
+        <member name="T:iTrellis.TripCalculator.Controllers.Fakes.ShimTransactionsController.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Controllers.Fakes.ShimTransactionsController.AllInstances.GetAllTransactions">
+            <summary>Sets the shim of TransactionsController.GetAllTransactions()</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Controllers.Fakes.ShimTransactionsController.AllInstances.GetSplits">
+            <summary>Sets the shim of TransactionsController.GetSplits()</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Controllers.Fakes.ShimTransactionsController.AllInstances.GetTransactionInt32">
+            <summary>Sets the shim of TransactionsController.GetTransaction(Int32 id)</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Controllers.Fakes.ShimTransactionsController.AllInstances.GetTransactionsByOwnerString">
+            <summary>Sets the shim of TransactionsController.GetTransactionsByOwner(String owner)</summary>
+        </member>
+        <member name="T:iTrellis.TripCalculator.Controllers.Fakes.ShimTransactionsControllerAsync">
+            <summary>Shim type of iTrellis.TripCalculator.Controllers.TransactionsControllerAsync</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.ShimTransactionsControllerAsync.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.ShimTransactionsControllerAsync.#ctor(iTrellis.TripCalculator.Controllers.TransactionsControllerAsync)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.ShimTransactionsControllerAsync.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.ShimTransactionsControllerAsync.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.ShimTransactionsControllerAsync.Bind(System.Web.Http.Controllers.IHttpController)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.ShimTransactionsControllerAsync.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Controllers.Fakes.ShimTransactionsControllerAsync.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Controllers.Fakes.ShimTransactionsControllerAsync.Constructor">
+            <summary>Sets the shim of TransactionsControllerAsync.TransactionsControllerAsync()</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Controllers.Fakes.ShimTransactionsControllerAsync.DeleteTransactionInt32">
+            <summary>Sets the shim of TransactionsControllerAsync.DeleteTransaction(Int32 id)</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Controllers.Fakes.ShimTransactionsControllerAsync.DisposeBoolean">
+            <summary>Sets the shim of TransactionsControllerAsync.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Controllers.Fakes.ShimTransactionsControllerAsync.GetTransactionInt32">
+            <summary>Sets the shim of TransactionsControllerAsync.GetTransaction(Int32 id)</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Controllers.Fakes.ShimTransactionsControllerAsync.GetTransactions">
+            <summary>Sets the shim of TransactionsControllerAsync.GetTransactions()</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Controllers.Fakes.ShimTransactionsControllerAsync.PostTransactionTransaction">
+            <summary>Sets the shim of TransactionsControllerAsync.PostTransaction(Transaction transaction)</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Controllers.Fakes.ShimTransactionsControllerAsync.PutTransactionInt32Transaction">
+            <summary>Sets the shim of TransactionsControllerAsync.PutTransaction(Int32 id, Transaction transaction)</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Controllers.Fakes.ShimTransactionsControllerAsync.TransactionExistsInt32">
+            <summary>Sets the shim of TransactionsControllerAsync.TransactionExists(Int32 id)</summary>
+        </member>
+        <member name="T:iTrellis.TripCalculator.Controllers.Fakes.ShimTransactionsControllerAsync.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Controllers.Fakes.ShimTransactionsControllerAsync.AllInstances.DeleteTransactionInt32">
+            <summary>Sets the shim of TransactionsControllerAsync.DeleteTransaction(Int32 id)</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Controllers.Fakes.ShimTransactionsControllerAsync.AllInstances.DisposeBoolean">
+            <summary>Sets the shim of TransactionsControllerAsync.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Controllers.Fakes.ShimTransactionsControllerAsync.AllInstances.GetTransactionInt32">
+            <summary>Sets the shim of TransactionsControllerAsync.GetTransaction(Int32 id)</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Controllers.Fakes.ShimTransactionsControllerAsync.AllInstances.GetTransactions">
+            <summary>Sets the shim of TransactionsControllerAsync.GetTransactions()</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Controllers.Fakes.ShimTransactionsControllerAsync.AllInstances.PostTransactionTransaction">
+            <summary>Sets the shim of TransactionsControllerAsync.PostTransaction(Transaction transaction)</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Controllers.Fakes.ShimTransactionsControllerAsync.AllInstances.PutTransactionInt32Transaction">
+            <summary>Sets the shim of TransactionsControllerAsync.PutTransaction(Int32 id, Transaction transaction)</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Controllers.Fakes.ShimTransactionsControllerAsync.AllInstances.TransactionExistsInt32">
+            <summary>Sets the shim of TransactionsControllerAsync.TransactionExists(Int32 id)</summary>
+        </member>
+        <member name="T:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController">
+            <summary>Stub type of iTrellis.TripCalculator.Controllers.TransactionsController</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController.#ctor(iTrellis.TripCalculator.Repositories.ITransactionRepository)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController.BadRequest(System.String)">
+            <summary>Sets the stub of ApiController.BadRequest(String message)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController.BadRequest">
+            <summary>Sets the stub of ApiController.BadRequest()</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController.BadRequest(System.Web.Http.ModelBinding.ModelStateDictionary)">
+            <summary>Sets the stub of ApiController.BadRequest(ModelStateDictionary modelState)</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController.BadRequest01">
+            <summary>Sets the stub of ApiController.BadRequest()</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController.BadRequestModelStateDictionary">
+            <summary>Sets the stub of ApiController.BadRequest(ModelStateDictionary modelState)</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController.BadRequestString">
+            <summary>Sets the stub of ApiController.BadRequest(String message)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController.Conflict">
+            <summary>Sets the stub of ApiController.Conflict()</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController.Conflict01">
+            <summary>Sets the stub of ApiController.Conflict()</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController.Content``1(System.Net.HttpStatusCode,``0,System.Net.Http.Formatting.MediaTypeFormatter,System.Net.Http.Headers.MediaTypeHeaderValue)">
+            <summary>Sets the stub of ApiController.Content(HttpStatusCode statusCode, !!0 value, MediaTypeFormatter formatter, MediaTypeHeaderValue mediaType)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController.Content``1(System.Net.HttpStatusCode,``0)">
+            <summary>Sets the stub of ApiController.Content(HttpStatusCode statusCode, !!0 value)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController.ContentOf1HttpStatusCodeM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Net.HttpStatusCode,``0,System.Web.Http.Results.NegotiatedContentResult{``0}})">
+            <summary>Sets stubs of Content(HttpStatusCode statusCode, !!0 value)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController.ContentOf1HttpStatusCodeM0MediaTypeFormatterMediaTypeHeaderValue``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Net.HttpStatusCode,``0,System.Net.Http.Formatting.MediaTypeFormatter,System.Net.Http.Headers.MediaTypeHeaderValue,System.Web.Http.Results.FormattedContentResult{``0}})">
+            <summary>Sets stubs of Content(HttpStatusCode statusCode, !!0 value, MediaTypeFormatter formatter, MediaTypeHeaderValue mediaType)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController.Created``1(System.Uri,``0)">
+            <summary>Sets the stub of ApiController.Created(Uri location, !!0 content)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController.CreatedAtRoute``1(System.String,System.Collections.Generic.IDictionary{System.String,System.Object},``0)">
+            <summary>Sets the stub of ApiController.CreatedAtRoute(String routeName, IDictionary`2&lt;String,Object&gt; routeValues, !!0 content)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController.CreatedAtRouteOf1StringIDictionaryOfStringObjectM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.String,System.Collections.Generic.IDictionary{System.String,System.Object},``0,System.Web.Http.Results.CreatedAtRouteNegotiatedContentResult{``0}})">
+            <summary>Sets stubs of CreatedAtRoute(String routeName, IDictionary`2&lt;String,Object&gt; routeValues, !!0 content)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController.CreatedOf1UriM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Uri,``0,System.Web.Http.Results.CreatedNegotiatedContentResult{``0}})">
+            <summary>Sets stubs of Created(Uri location, !!0 content)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController.Dispose(System.Boolean)">
+            <summary>Sets the stub of ApiController.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController.DisposeBoolean">
+            <summary>Sets the stub of ApiController.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController.ExecuteAsync(System.Web.Http.Controllers.HttpControllerContext,System.Threading.CancellationToken)">
+            <summary>Sets the stub of ApiController.ExecuteAsync(HttpControllerContext controllerContext, CancellationToken cancellationToken)</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController.ExecuteAsyncHttpControllerContextCancellationToken">
+            <summary>Sets the stub of ApiController.ExecuteAsync(HttpControllerContext controllerContext, CancellationToken cancellationToken)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController.Initialize(System.Web.Http.Controllers.HttpControllerContext)">
+            <summary>Sets the stub of ApiController.Initialize(HttpControllerContext controllerContext)</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController.InitializeHttpControllerContext">
+            <summary>Sets the stub of ApiController.Initialize(HttpControllerContext controllerContext)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController.InitializeStub">
+            <summary>Initializes a new instance of type StubTransactionsController</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController.InternalServerError(System.Exception)">
+            <summary>Sets the stub of ApiController.InternalServerError(Exception exception)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController.InternalServerError">
+            <summary>Sets the stub of ApiController.InternalServerError()</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController.InternalServerError01">
+            <summary>Sets the stub of ApiController.InternalServerError()</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController.InternalServerErrorException">
+            <summary>Sets the stub of ApiController.InternalServerError(Exception exception)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController.Json``1(``0,Newtonsoft.Json.JsonSerializerSettings,System.Text.Encoding)">
+            <summary>Sets the stub of ApiController.Json(!!0 content, JsonSerializerSettings serializerSettings, Encoding encoding)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController.JsonOf1M0JsonSerializerSettingsEncoding``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{``0,Newtonsoft.Json.JsonSerializerSettings,System.Text.Encoding,System.Web.Http.Results.JsonResult{``0}})">
+            <summary>Sets stubs of Json(!!0 content, JsonSerializerSettings serializerSettings, Encoding encoding)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController.NotFound">
+            <summary>Sets the stub of ApiController.NotFound()</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController.NotFound01">
+            <summary>Sets the stub of ApiController.NotFound()</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController.Ok">
+            <summary>Sets the stub of ApiController.Ok()</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController.Ok``1(``0)">
+            <summary>Sets the stub of ApiController.Ok(!!0 content)</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController.Ok01">
+            <summary>Sets the stub of ApiController.Ok()</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController.OkOf1M0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{``0,System.Web.Http.Results.OkNegotiatedContentResult{``0}})">
+            <summary>Sets stubs of Ok(!!0 content)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController.Redirect(System.Uri)">
+            <summary>Sets the stub of ApiController.Redirect(Uri location)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController.Redirect(System.String)">
+            <summary>Sets the stub of ApiController.Redirect(String location)</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController.RedirectString">
+            <summary>Sets the stub of ApiController.Redirect(String location)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController.RedirectToRoute(System.String,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>Sets the stub of ApiController.RedirectToRoute(String routeName, IDictionary`2&lt;String,Object&gt; routeValues)</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController.RedirectToRouteStringIDictionaryOfStringObject">
+            <summary>Sets the stub of ApiController.RedirectToRoute(String routeName, IDictionary`2&lt;String,Object&gt; routeValues)</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController.RedirectUri">
+            <summary>Sets the stub of ApiController.Redirect(Uri location)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController.ResponseMessage(System.Net.Http.HttpResponseMessage)">
+            <summary>Sets the stub of ApiController.ResponseMessage(HttpResponseMessage response)</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController.ResponseMessageHttpResponseMessage">
+            <summary>Sets the stub of ApiController.ResponseMessage(HttpResponseMessage response)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController.StatusCode(System.Net.HttpStatusCode)">
+            <summary>Sets the stub of ApiController.StatusCode(HttpStatusCode status)</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController.StatusCodeHttpStatusCode">
+            <summary>Sets the stub of ApiController.StatusCode(HttpStatusCode status)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController.Unauthorized(System.Collections.Generic.IEnumerable{System.Net.Http.Headers.AuthenticationHeaderValue})">
+            <summary>Sets the stub of ApiController.Unauthorized(IEnumerable`1&lt;AuthenticationHeaderValue&gt; challenges)</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController.UnauthorizedIEnumerableOfAuthenticationHeaderValue">
+            <summary>Sets the stub of ApiController.Unauthorized(IEnumerable`1&lt;AuthenticationHeaderValue&gt; challenges)</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsController.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsControllerAsync">
+            <summary>Stub type of iTrellis.TripCalculator.Controllers.TransactionsControllerAsync</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsControllerAsync.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsControllerAsync.BadRequest(System.String)">
+            <summary>Sets the stub of ApiController.BadRequest(String message)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsControllerAsync.BadRequest">
+            <summary>Sets the stub of ApiController.BadRequest()</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsControllerAsync.BadRequest(System.Web.Http.ModelBinding.ModelStateDictionary)">
+            <summary>Sets the stub of ApiController.BadRequest(ModelStateDictionary modelState)</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsControllerAsync.BadRequest01">
+            <summary>Sets the stub of ApiController.BadRequest()</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsControllerAsync.BadRequestModelStateDictionary">
+            <summary>Sets the stub of ApiController.BadRequest(ModelStateDictionary modelState)</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsControllerAsync.BadRequestString">
+            <summary>Sets the stub of ApiController.BadRequest(String message)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsControllerAsync.Conflict">
+            <summary>Sets the stub of ApiController.Conflict()</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsControllerAsync.Conflict01">
+            <summary>Sets the stub of ApiController.Conflict()</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsControllerAsync.Content``1(System.Net.HttpStatusCode,``0,System.Net.Http.Formatting.MediaTypeFormatter,System.Net.Http.Headers.MediaTypeHeaderValue)">
+            <summary>Sets the stub of ApiController.Content(HttpStatusCode statusCode, !!0 value, MediaTypeFormatter formatter, MediaTypeHeaderValue mediaType)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsControllerAsync.Content``1(System.Net.HttpStatusCode,``0)">
+            <summary>Sets the stub of ApiController.Content(HttpStatusCode statusCode, !!0 value)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsControllerAsync.ContentOf1HttpStatusCodeM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Net.HttpStatusCode,``0,System.Web.Http.Results.NegotiatedContentResult{``0}})">
+            <summary>Sets stubs of Content(HttpStatusCode statusCode, !!0 value)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsControllerAsync.ContentOf1HttpStatusCodeM0MediaTypeFormatterMediaTypeHeaderValue``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Net.HttpStatusCode,``0,System.Net.Http.Formatting.MediaTypeFormatter,System.Net.Http.Headers.MediaTypeHeaderValue,System.Web.Http.Results.FormattedContentResult{``0}})">
+            <summary>Sets stubs of Content(HttpStatusCode statusCode, !!0 value, MediaTypeFormatter formatter, MediaTypeHeaderValue mediaType)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsControllerAsync.Created``1(System.Uri,``0)">
+            <summary>Sets the stub of ApiController.Created(Uri location, !!0 content)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsControllerAsync.CreatedAtRoute``1(System.String,System.Collections.Generic.IDictionary{System.String,System.Object},``0)">
+            <summary>Sets the stub of ApiController.CreatedAtRoute(String routeName, IDictionary`2&lt;String,Object&gt; routeValues, !!0 content)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsControllerAsync.CreatedAtRouteOf1StringIDictionaryOfStringObjectM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.String,System.Collections.Generic.IDictionary{System.String,System.Object},``0,System.Web.Http.Results.CreatedAtRouteNegotiatedContentResult{``0}})">
+            <summary>Sets stubs of CreatedAtRoute(String routeName, IDictionary`2&lt;String,Object&gt; routeValues, !!0 content)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsControllerAsync.CreatedOf1UriM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Uri,``0,System.Web.Http.Results.CreatedNegotiatedContentResult{``0}})">
+            <summary>Sets stubs of Created(Uri location, !!0 content)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsControllerAsync.Dispose(System.Boolean)">
+            <summary>Sets the stub of TransactionsControllerAsync.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsControllerAsync.DisposeBoolean">
+            <summary>Sets the stub of TransactionsControllerAsync.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsControllerAsync.ExecuteAsync(System.Web.Http.Controllers.HttpControllerContext,System.Threading.CancellationToken)">
+            <summary>Sets the stub of ApiController.ExecuteAsync(HttpControllerContext controllerContext, CancellationToken cancellationToken)</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsControllerAsync.ExecuteAsyncHttpControllerContextCancellationToken">
+            <summary>Sets the stub of ApiController.ExecuteAsync(HttpControllerContext controllerContext, CancellationToken cancellationToken)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsControllerAsync.Initialize(System.Web.Http.Controllers.HttpControllerContext)">
+            <summary>Sets the stub of ApiController.Initialize(HttpControllerContext controllerContext)</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsControllerAsync.InitializeHttpControllerContext">
+            <summary>Sets the stub of ApiController.Initialize(HttpControllerContext controllerContext)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsControllerAsync.InitializeStub">
+            <summary>Initializes a new instance of type StubTransactionsControllerAsync</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsControllerAsync.InternalServerError(System.Exception)">
+            <summary>Sets the stub of ApiController.InternalServerError(Exception exception)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsControllerAsync.InternalServerError">
+            <summary>Sets the stub of ApiController.InternalServerError()</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsControllerAsync.InternalServerError01">
+            <summary>Sets the stub of ApiController.InternalServerError()</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsControllerAsync.InternalServerErrorException">
+            <summary>Sets the stub of ApiController.InternalServerError(Exception exception)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsControllerAsync.Json``1(``0,Newtonsoft.Json.JsonSerializerSettings,System.Text.Encoding)">
+            <summary>Sets the stub of ApiController.Json(!!0 content, JsonSerializerSettings serializerSettings, Encoding encoding)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsControllerAsync.JsonOf1M0JsonSerializerSettingsEncoding``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{``0,Newtonsoft.Json.JsonSerializerSettings,System.Text.Encoding,System.Web.Http.Results.JsonResult{``0}})">
+            <summary>Sets stubs of Json(!!0 content, JsonSerializerSettings serializerSettings, Encoding encoding)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsControllerAsync.NotFound">
+            <summary>Sets the stub of ApiController.NotFound()</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsControllerAsync.NotFound01">
+            <summary>Sets the stub of ApiController.NotFound()</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsControllerAsync.Ok">
+            <summary>Sets the stub of ApiController.Ok()</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsControllerAsync.Ok``1(``0)">
+            <summary>Sets the stub of ApiController.Ok(!!0 content)</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsControllerAsync.Ok01">
+            <summary>Sets the stub of ApiController.Ok()</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsControllerAsync.OkOf1M0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{``0,System.Web.Http.Results.OkNegotiatedContentResult{``0}})">
+            <summary>Sets stubs of Ok(!!0 content)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsControllerAsync.Redirect(System.Uri)">
+            <summary>Sets the stub of ApiController.Redirect(Uri location)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsControllerAsync.Redirect(System.String)">
+            <summary>Sets the stub of ApiController.Redirect(String location)</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsControllerAsync.RedirectString">
+            <summary>Sets the stub of ApiController.Redirect(String location)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsControllerAsync.RedirectToRoute(System.String,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>Sets the stub of ApiController.RedirectToRoute(String routeName, IDictionary`2&lt;String,Object&gt; routeValues)</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsControllerAsync.RedirectToRouteStringIDictionaryOfStringObject">
+            <summary>Sets the stub of ApiController.RedirectToRoute(String routeName, IDictionary`2&lt;String,Object&gt; routeValues)</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsControllerAsync.RedirectUri">
+            <summary>Sets the stub of ApiController.Redirect(Uri location)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsControllerAsync.ResponseMessage(System.Net.Http.HttpResponseMessage)">
+            <summary>Sets the stub of ApiController.ResponseMessage(HttpResponseMessage response)</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsControllerAsync.ResponseMessageHttpResponseMessage">
+            <summary>Sets the stub of ApiController.ResponseMessage(HttpResponseMessage response)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsControllerAsync.StatusCode(System.Net.HttpStatusCode)">
+            <summary>Sets the stub of ApiController.StatusCode(HttpStatusCode status)</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsControllerAsync.StatusCodeHttpStatusCode">
+            <summary>Sets the stub of ApiController.StatusCode(HttpStatusCode status)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsControllerAsync.Unauthorized(System.Collections.Generic.IEnumerable{System.Net.Http.Headers.AuthenticationHeaderValue})">
+            <summary>Sets the stub of ApiController.Unauthorized(IEnumerable`1&lt;AuthenticationHeaderValue&gt; challenges)</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsControllerAsync.UnauthorizedIEnumerableOfAuthenticationHeaderValue">
+            <summary>Sets the stub of ApiController.Unauthorized(IEnumerable`1&lt;AuthenticationHeaderValue&gt; challenges)</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsControllerAsync.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsControllerAsync.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Controllers.Fakes.StubTransactionsControllerAsync.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:iTrellis.TripCalculator.Fakes.ShimCalculator">
+            <summary>Shim type of iTrellis.TripCalculator.Calculator</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Fakes.ShimCalculator.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Fakes.ShimCalculator.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Fakes.ShimCalculator.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Fakes.ShimCalculator.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Fakes.ShimCalculator.CalculateSettlementIEnumerableOfTransaction">
+            <summary>Sets the shim of Calculator.CalculateSettlement(IEnumerable`1&lt;Transaction&gt; transactions)</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Fakes.ShimCalculator.DetermineSplitsIDictionaryOfStringDecimal">
+            <summary>Sets the shim of Calculator.DetermineSplits(IDictionary`2&lt;String,Decimal&gt; settlement)</summary>
+        </member>
+        <member name="T:iTrellis.TripCalculator.Fakes.ShimUnityResolver">
+            <summary>Shim type of iTrellis.TripCalculator.UnityResolver</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Fakes.ShimUnityResolver.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Fakes.ShimUnityResolver.#ctor(iTrellis.TripCalculator.UnityResolver)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Fakes.ShimUnityResolver.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Fakes.ShimUnityResolver.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Fakes.ShimUnityResolver.Bind(System.Web.Http.Dependencies.IDependencyResolver)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Fakes.ShimUnityResolver.Bind(System.Web.Http.Dependencies.IDependencyScope)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Fakes.ShimUnityResolver.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Fakes.ShimUnityResolver.BeginScope">
+            <summary>Sets the shim of UnityResolver.BeginScope()</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Fakes.ShimUnityResolver.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Fakes.ShimUnityResolver.ConstructorIUnityContainer">
+            <summary>Sets the shim of UnityResolver.UnityResolver(IUnityContainer container)</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Fakes.ShimUnityResolver.Dispose">
+            <summary>Sets the shim of UnityResolver.Dispose()</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Fakes.ShimUnityResolver.GetServiceType">
+            <summary>Sets the shim of UnityResolver.GetService(Type serviceType)</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Fakes.ShimUnityResolver.GetServicesType">
+            <summary>Sets the shim of UnityResolver.GetServices(Type serviceType)</summary>
+        </member>
+        <member name="T:iTrellis.TripCalculator.Fakes.ShimUnityResolver.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Fakes.ShimUnityResolver.AllInstances.BeginScope">
+            <summary>Sets the shim of UnityResolver.BeginScope()</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Fakes.ShimUnityResolver.AllInstances.Dispose">
+            <summary>Sets the shim of UnityResolver.Dispose()</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Fakes.ShimUnityResolver.AllInstances.GetServiceType">
+            <summary>Sets the shim of UnityResolver.GetService(Type serviceType)</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Fakes.ShimUnityResolver.AllInstances.GetServicesType">
+            <summary>Sets the shim of UnityResolver.GetServices(Type serviceType)</summary>
+        </member>
+        <member name="T:iTrellis.TripCalculator.Fakes.ShimWebApiApplication">
+            <summary>Shim type of iTrellis.TripCalculator.WebApiApplication</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Fakes.ShimWebApiApplication.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Fakes.ShimWebApiApplication.#ctor(iTrellis.TripCalculator.WebApiApplication)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Fakes.ShimWebApiApplication.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Fakes.ShimWebApiApplication.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Fakes.ShimWebApiApplication.Bind(System.ComponentModel.IComponent)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Fakes.ShimWebApiApplication.Bind(System.Web.IHttpAsyncHandler)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Fakes.ShimWebApiApplication.Bind(System.Web.IHttpHandler)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Fakes.ShimWebApiApplication.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Fakes.ShimWebApiApplication.Application_Start">
+            <summary>Sets the shim of WebApiApplication.Application_Start()</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Fakes.ShimWebApiApplication.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Fakes.ShimWebApiApplication.Constructor">
+            <summary>Sets the shim of WebApiApplication.WebApiApplication()</summary>
+        </member>
+        <member name="T:iTrellis.TripCalculator.Fakes.ShimWebApiApplication.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Fakes.ShimWebApiApplication.AllInstances.Application_Start">
+            <summary>Sets the shim of WebApiApplication.Application_Start()</summary>
+        </member>
+        <member name="T:iTrellis.TripCalculator.Fakes.ShimWebApiConfig">
+            <summary>Shim type of iTrellis.TripCalculator.WebApiConfig</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Fakes.ShimWebApiConfig.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Fakes.ShimWebApiConfig.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Fakes.ShimWebApiConfig.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Fakes.ShimWebApiConfig.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Fakes.ShimWebApiConfig.RegisterHttpConfiguration">
+            <summary>Sets the shim of WebApiConfig.Register(HttpConfiguration config)</summary>
+        </member>
+        <member name="T:iTrellis.TripCalculator.Fakes.StubUnityResolver">
+            <summary>Stub type of iTrellis.TripCalculator.UnityResolver</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Fakes.StubUnityResolver.#ctor(Microsoft.Practices.Unity.IUnityContainer)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Fakes.StubUnityResolver.InitializeStub">
+            <summary>Initializes a new instance of type StubUnityResolver</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Fakes.StubUnityResolver.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Fakes.StubUnityResolver.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Fakes.StubUnityResolver.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:iTrellis.TripCalculator.Fakes.StubWebApiApplication">
+            <summary>Stub type of iTrellis.TripCalculator.WebApiApplication</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Fakes.StubWebApiApplication.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Fakes.StubWebApiApplication.Dispose">
+            <summary>Sets the stub of HttpApplication.Dispose()</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Fakes.StubWebApiApplication.Dispose01">
+            <summary>Sets the stub of HttpApplication.Dispose()</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Fakes.StubWebApiApplication.GetOutputCacheProviderName(System.Web.HttpContext)">
+            <summary>Sets the stub of HttpApplication.GetOutputCacheProviderName(HttpContext context)</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Fakes.StubWebApiApplication.GetOutputCacheProviderNameHttpContext">
+            <summary>Sets the stub of HttpApplication.GetOutputCacheProviderName(HttpContext context)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Fakes.StubWebApiApplication.GetVaryByCustomString(System.Web.HttpContext,System.String)">
+            <summary>Sets the stub of HttpApplication.GetVaryByCustomString(HttpContext context, String custom)</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Fakes.StubWebApiApplication.GetVaryByCustomStringHttpContextString">
+            <summary>Sets the stub of HttpApplication.GetVaryByCustomString(HttpContext context, String custom)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Fakes.StubWebApiApplication.Init">
+            <summary>Sets the stub of HttpApplication.Init()</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Fakes.StubWebApiApplication.Init01">
+            <summary>Sets the stub of HttpApplication.Init()</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Fakes.StubWebApiApplication.InitializeStub">
+            <summary>Initializes a new instance of type StubWebApiApplication</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Fakes.StubWebApiApplication.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Fakes.StubWebApiApplication.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Fakes.StubWebApiApplication.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:iTrellis.TripCalculator.Models.Fakes.ShimSplit">
+            <summary>Shim type of iTrellis.TripCalculator.Models.Split</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Models.Fakes.ShimSplit.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Models.Fakes.ShimSplit.#ctor(iTrellis.TripCalculator.Models.Split)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Models.Fakes.ShimSplit.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Models.Fakes.ShimSplit.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Models.Fakes.ShimSplit.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Models.Fakes.ShimSplit.Constructor">
+            <summary>Sets the shim of Split.Split()</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Models.Fakes.ShimSplit.ConstructorStringStringDecimal">
+            <summary>Sets the shim of Split.Split(String creditor, String debitor, Decimal payment)</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Models.Fakes.ShimSplit.CreditorGet">
+            <summary>Sets the shim of Split.get_Creditor()</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Models.Fakes.ShimSplit.CreditorSetString">
+            <summary>Sets the shim of Split.set_Creditor(String value)</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Models.Fakes.ShimSplit.DebitorGet">
+            <summary>Sets the shim of Split.get_Debitor()</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Models.Fakes.ShimSplit.DebitorSetString">
+            <summary>Sets the shim of Split.set_Debitor(String value)</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Models.Fakes.ShimSplit.EqualsObject">
+            <summary>Sets the shim of Split.Equals(Object obj)</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Models.Fakes.ShimSplit.GetHashCode">
+            <summary>Sets the shim of Split.GetHashCode()</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Models.Fakes.ShimSplit.PaymentGet">
+            <summary>Sets the shim of Split.get_Payment()</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Models.Fakes.ShimSplit.PaymentSetDecimal">
+            <summary>Sets the shim of Split.set_Payment(Decimal value)</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Models.Fakes.ShimSplit.ToString">
+            <summary>Sets the shim of Split.ToString()</summary>
+        </member>
+        <member name="T:iTrellis.TripCalculator.Models.Fakes.ShimSplit.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Models.Fakes.ShimSplit.AllInstances.CreditorGet">
+            <summary>Sets the shim of Split.get_Creditor()</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Models.Fakes.ShimSplit.AllInstances.CreditorSetString">
+            <summary>Sets the shim of Split.set_Creditor(String value)</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Models.Fakes.ShimSplit.AllInstances.DebitorGet">
+            <summary>Sets the shim of Split.get_Debitor()</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Models.Fakes.ShimSplit.AllInstances.DebitorSetString">
+            <summary>Sets the shim of Split.set_Debitor(String value)</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Models.Fakes.ShimSplit.AllInstances.EqualsObject">
+            <summary>Sets the shim of Split.Equals(Object obj)</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Models.Fakes.ShimSplit.AllInstances.GetHashCode01">
+            <summary>Sets the shim of Split.GetHashCode()</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Models.Fakes.ShimSplit.AllInstances.PaymentGet">
+            <summary>Sets the shim of Split.get_Payment()</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Models.Fakes.ShimSplit.AllInstances.PaymentSetDecimal">
+            <summary>Sets the shim of Split.set_Payment(Decimal value)</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Models.Fakes.ShimSplit.AllInstances.ToString01">
+            <summary>Sets the shim of Split.ToString()</summary>
+        </member>
+        <member name="T:iTrellis.TripCalculator.Models.Fakes.ShimTransaction">
+            <summary>Shim type of iTrellis.TripCalculator.Models.Transaction</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Models.Fakes.ShimTransaction.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Models.Fakes.ShimTransaction.#ctor(iTrellis.TripCalculator.Models.Transaction)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Models.Fakes.ShimTransaction.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Models.Fakes.ShimTransaction.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Models.Fakes.ShimTransaction.AmountGet">
+            <summary>Sets the shim of Transaction.get_Amount()</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Models.Fakes.ShimTransaction.AmountSetDecimal">
+            <summary>Sets the shim of Transaction.set_Amount(Decimal value)</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Models.Fakes.ShimTransaction.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Models.Fakes.ShimTransaction.Constructor">
+            <summary>Sets the shim of Transaction.Transaction()</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Models.Fakes.ShimTransaction.ConstructorDecimalString">
+            <summary>Sets the shim of Transaction.Transaction(Decimal amount, String payer)</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Models.Fakes.ShimTransaction.EqualsObject">
+            <summary>Sets the shim of Transaction.Equals(Object obj)</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Models.Fakes.ShimTransaction.GetHashCode">
+            <summary>Sets the shim of Transaction.GetHashCode()</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Models.Fakes.ShimTransaction.IdGet">
+            <summary>Sets the shim of Transaction.get_Id()</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Models.Fakes.ShimTransaction.IdSetInt32">
+            <summary>Sets the shim of Transaction.set_Id(Int32 value)</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Models.Fakes.ShimTransaction.OwnerGet">
+            <summary>Sets the shim of Transaction.get_Owner()</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Models.Fakes.ShimTransaction.OwnerSetString">
+            <summary>Sets the shim of Transaction.set_Owner(String value)</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Models.Fakes.ShimTransaction.ToString">
+            <summary>Sets the shim of Transaction.ToString()</summary>
+        </member>
+        <member name="T:iTrellis.TripCalculator.Models.Fakes.ShimTransaction.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Models.Fakes.ShimTransaction.AllInstances.AmountGet">
+            <summary>Sets the shim of Transaction.get_Amount()</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Models.Fakes.ShimTransaction.AllInstances.AmountSetDecimal">
+            <summary>Sets the shim of Transaction.set_Amount(Decimal value)</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Models.Fakes.ShimTransaction.AllInstances.EqualsObject">
+            <summary>Sets the shim of Transaction.Equals(Object obj)</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Models.Fakes.ShimTransaction.AllInstances.GetHashCode01">
+            <summary>Sets the shim of Transaction.GetHashCode()</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Models.Fakes.ShimTransaction.AllInstances.IdGet">
+            <summary>Sets the shim of Transaction.get_Id()</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Models.Fakes.ShimTransaction.AllInstances.IdSetInt32">
+            <summary>Sets the shim of Transaction.set_Id(Int32 value)</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Models.Fakes.ShimTransaction.AllInstances.OwnerGet">
+            <summary>Sets the shim of Transaction.get_Owner()</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Models.Fakes.ShimTransaction.AllInstances.OwnerSetString">
+            <summary>Sets the shim of Transaction.set_Owner(String value)</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Models.Fakes.ShimTransaction.AllInstances.ToString01">
+            <summary>Sets the shim of Transaction.ToString()</summary>
+        </member>
+        <member name="T:iTrellis.TripCalculator.Models.Fakes.StubSplit">
+            <summary>Stub type of iTrellis.TripCalculator.Models.Split</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Models.Fakes.StubSplit.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Models.Fakes.StubSplit.#ctor(System.String,System.String,System.Decimal)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Models.Fakes.StubSplit.Equals(System.Object)">
+            <summary>Sets the stub of Split.Equals(Object obj)</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Models.Fakes.StubSplit.EqualsObject">
+            <summary>Sets the stub of Split.Equals(Object obj)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Models.Fakes.StubSplit.GetHashCode">
+            <summary>Sets the stub of Split.GetHashCode()</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Models.Fakes.StubSplit.GetHashCode01">
+            <summary>Sets the stub of Split.GetHashCode()</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Models.Fakes.StubSplit.InitializeStub">
+            <summary>Initializes a new instance of type StubSplit</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Models.Fakes.StubSplit.ToString">
+            <summary>Sets the stub of Split.ToString()</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Models.Fakes.StubSplit.ToString01">
+            <summary>Sets the stub of Split.ToString()</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Models.Fakes.StubSplit.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Models.Fakes.StubSplit.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Models.Fakes.StubSplit.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:iTrellis.TripCalculator.Models.Fakes.StubTransaction">
+            <summary>Stub type of iTrellis.TripCalculator.Models.Transaction</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Models.Fakes.StubTransaction.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Models.Fakes.StubTransaction.#ctor(System.Decimal,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Models.Fakes.StubTransaction.Equals(System.Object)">
+            <summary>Sets the stub of Transaction.Equals(Object obj)</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Models.Fakes.StubTransaction.EqualsObject">
+            <summary>Sets the stub of Transaction.Equals(Object obj)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Models.Fakes.StubTransaction.GetHashCode">
+            <summary>Sets the stub of Transaction.GetHashCode()</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Models.Fakes.StubTransaction.GetHashCode01">
+            <summary>Sets the stub of Transaction.GetHashCode()</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Models.Fakes.StubTransaction.InitializeStub">
+            <summary>Initializes a new instance of type StubTransaction</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Models.Fakes.StubTransaction.ToString">
+            <summary>Sets the stub of Transaction.ToString()</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Models.Fakes.StubTransaction.ToString01">
+            <summary>Sets the stub of Transaction.ToString()</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Models.Fakes.StubTransaction.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Models.Fakes.StubTransaction.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Models.Fakes.StubTransaction.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionRepository">
+            <summary>Shim type of iTrellis.TripCalculator.Repositories.TransactionRepository</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionRepository.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionRepository.#ctor(iTrellis.TripCalculator.Repositories.TransactionRepository)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionRepository.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionRepository.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionRepository.Bind(iTrellis.TripCalculator.Repositories.ITransactionRepository)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionRepository.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionRepository.AddTransaction">
+            <summary>Sets the shim of TransactionRepository.Add(Transaction transaction)</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionRepository.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionRepository.Constructor">
+            <summary>Sets the shim of TransactionRepository.TransactionRepository()</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionRepository.Dispose">
+            <summary>Sets the shim of TransactionRepository.Dispose()</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionRepository.DisposeBoolean">
+            <summary>Sets the shim of TransactionRepository.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionRepository.GetAll">
+            <summary>Sets the shim of TransactionRepository.GetAll()</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionRepository.GetByIdInt32">
+            <summary>Sets the shim of TransactionRepository.GetById(Int32 id)</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionRepository.GetByOwnerString">
+            <summary>Sets the shim of TransactionRepository.GetByOwner(String owner)</summary>
+        </member>
+        <member name="T:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionRepository.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionRepository.AllInstances.AddTransaction">
+            <summary>Sets the shim of TransactionRepository.Add(Transaction transaction)</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionRepository.AllInstances.Dispose">
+            <summary>Sets the shim of TransactionRepository.Dispose()</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionRepository.AllInstances.DisposeBoolean">
+            <summary>Sets the shim of TransactionRepository.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionRepository.AllInstances.GetAll">
+            <summary>Sets the shim of TransactionRepository.GetAll()</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionRepository.AllInstances.GetByIdInt32">
+            <summary>Sets the shim of TransactionRepository.GetById(Int32 id)</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionRepository.AllInstances.GetByOwnerString">
+            <summary>Sets the shim of TransactionRepository.GetByOwner(String owner)</summary>
+        </member>
+        <member name="T:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionsContext">
+            <summary>Shim type of iTrellis.TripCalculator.Repositories.TransactionsContext</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionsContext.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionsContext.#ctor(iTrellis.TripCalculator.Repositories.TransactionsContext)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionsContext.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionsContext.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionsContext.Bind(System.Data.Entity.Infrastructure.IObjectContextAdapter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionsContext.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionsContext.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionsContext.Constructor">
+            <summary>Sets the shim of TransactionsContext.TransactionsContext()</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionsContext.SeedTransactionsContext">
+            <summary>Sets the shim of TransactionsContext.Seed(TransactionsContext Context)</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionsContext.TransactionsGet">
+            <summary>Sets the shim of TransactionsContext.get_Transactions()</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionsContext.TransactionsSetDbSetOfTransaction">
+            <summary>Sets the shim of TransactionsContext.set_Transactions(DbSet`1&lt;Transaction&gt; value)</summary>
+        </member>
+        <member name="T:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionsContext.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionsContext.AllInstances.SeedTransactionsContext">
+            <summary>Sets the shim of TransactionsContext.Seed(TransactionsContext Context)</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionsContext.AllInstances.TransactionsGet">
+            <summary>Sets the shim of TransactionsContext.get_Transactions()</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionsContext.AllInstances.TransactionsSetDbSetOfTransaction">
+            <summary>Sets the shim of TransactionsContext.set_Transactions(DbSet`1&lt;Transaction&gt; value)</summary>
+        </member>
+        <member name="T:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionsContext.ShimCreateIfNotExistsInitializer">
+            <summary>Shim type of iTrellis.TripCalculator.Repositories.TransactionsContext+CreateIfNotExistsInitializer</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionsContext.ShimCreateIfNotExistsInitializer.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionsContext.ShimCreateIfNotExistsInitializer.#ctor(iTrellis.TripCalculator.Repositories.TransactionsContext.CreateIfNotExistsInitializer)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionsContext.ShimCreateIfNotExistsInitializer.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionsContext.ShimCreateIfNotExistsInitializer.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionsContext.ShimCreateIfNotExistsInitializer.Bind(System.Data.Entity.IDatabaseInitializer{iTrellis.TripCalculator.Repositories.TransactionsContext})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionsContext.ShimCreateIfNotExistsInitializer.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionsContext.ShimCreateIfNotExistsInitializer.Constructor">
+            <summary>Sets the shim of CreateIfNotExistsInitializer.CreateIfNotExistsInitializer()</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionsContext.ShimCreateIfNotExistsInitializer.SeedTransactionsContext">
+            <summary>Sets the shim of CreateIfNotExistsInitializer.Seed(TransactionsContext context)</summary>
+        </member>
+        <member name="T:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionsContext.ShimCreateIfNotExistsInitializer.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionsContext.ShimCreateIfNotExistsInitializer.AllInstances.SeedTransactionsContext">
+            <summary>Sets the shim of CreateIfNotExistsInitializer.Seed(TransactionsContext context)</summary>
+        </member>
+        <member name="T:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionsContext.ShimDropCreateIfChangeInitializer">
+            <summary>Shim type of iTrellis.TripCalculator.Repositories.TransactionsContext+DropCreateIfChangeInitializer</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionsContext.ShimDropCreateIfChangeInitializer.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionsContext.ShimDropCreateIfChangeInitializer.#ctor(iTrellis.TripCalculator.Repositories.TransactionsContext.DropCreateIfChangeInitializer)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionsContext.ShimDropCreateIfChangeInitializer.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionsContext.ShimDropCreateIfChangeInitializer.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionsContext.ShimDropCreateIfChangeInitializer.Bind(System.Data.Entity.IDatabaseInitializer{iTrellis.TripCalculator.Repositories.TransactionsContext})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionsContext.ShimDropCreateIfChangeInitializer.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionsContext.ShimDropCreateIfChangeInitializer.Constructor">
+            <summary>Sets the shim of DropCreateIfChangeInitializer.DropCreateIfChangeInitializer()</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionsContext.ShimDropCreateIfChangeInitializer.SeedTransactionsContext">
+            <summary>Sets the shim of DropCreateIfChangeInitializer.Seed(TransactionsContext context)</summary>
+        </member>
+        <member name="T:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionsContext.ShimDropCreateIfChangeInitializer.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Repositories.Fakes.ShimTransactionsContext.ShimDropCreateIfChangeInitializer.AllInstances.SeedTransactionsContext">
+            <summary>Sets the shim of DropCreateIfChangeInitializer.Seed(TransactionsContext context)</summary>
+        </member>
+        <member name="T:iTrellis.TripCalculator.Repositories.Fakes.StubITransactionRepository">
+            <summary>Stub type of iTrellis.TripCalculator.Repositories.ITransactionRepository</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Repositories.Fakes.StubITransactionRepository.#ctor">
+            <summary>Initializes a new instance of type StubITransactionRepository</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Repositories.Fakes.StubITransactionRepository.AddTransaction">
+            <summary>Sets the stub of ITransactionRepository.Add(Transaction transaction)</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Repositories.Fakes.StubITransactionRepository.GetAll">
+            <summary>Sets the stub of ITransactionRepository.GetAll()</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Repositories.Fakes.StubITransactionRepository.GetByIdInt32">
+            <summary>Sets the stub of ITransactionRepository.GetById(Int32 id)</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Repositories.Fakes.StubITransactionRepository.GetByOwnerString">
+            <summary>Sets the stub of ITransactionRepository.GetByOwner(String owner)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Repositories.Fakes.StubITransactionRepository.ittc::iTrellis#TripCalculator#Repositories#ITransactionRepository#Add(iTrellis.TripCalculator.Models.Transaction)">
+            <summary>Sets the stub of ITransactionRepository.Add(Transaction transaction)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Repositories.Fakes.StubITransactionRepository.ittc::iTrellis#TripCalculator#Repositories#ITransactionRepository#GetAll">
+            <summary>Sets the stub of ITransactionRepository.GetAll()</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Repositories.Fakes.StubITransactionRepository.ittc::iTrellis#TripCalculator#Repositories#ITransactionRepository#GetById(System.Int32)">
+            <summary>Sets the stub of ITransactionRepository.GetById(Int32 id)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Repositories.Fakes.StubITransactionRepository.ittc::iTrellis#TripCalculator#Repositories#ITransactionRepository#GetByOwner(System.String)">
+            <summary>Sets the stub of ITransactionRepository.GetByOwner(String owner)</summary>
+        </member>
+        <member name="T:iTrellis.TripCalculator.Repositories.Fakes.StubTransactionRepository">
+            <summary>Stub type of iTrellis.TripCalculator.Repositories.TransactionRepository</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Repositories.Fakes.StubTransactionRepository.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Repositories.Fakes.StubTransactionRepository.InitializeStub">
+            <summary>Initializes a new instance of type StubTransactionRepository</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Repositories.Fakes.StubTransactionRepository.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Repositories.Fakes.StubTransactionRepository.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Repositories.Fakes.StubTransactionRepository.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:iTrellis.TripCalculator.Repositories.Fakes.StubTransactionsContext">
+            <summary>Stub type of iTrellis.TripCalculator.Repositories.TransactionsContext</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Repositories.Fakes.StubTransactionsContext.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Repositories.Fakes.StubTransactionsContext.Dispose(System.Boolean)">
+            <summary>Sets the stub of DbContext.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Repositories.Fakes.StubTransactionsContext.DisposeBoolean">
+            <summary>Sets the stub of DbContext.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Repositories.Fakes.StubTransactionsContext.Equals(System.Object)">
+            <summary>Sets the stub of DbContext.Equals(Object obj)</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Repositories.Fakes.StubTransactionsContext.EqualsObject">
+            <summary>Sets the stub of DbContext.Equals(Object obj)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Repositories.Fakes.StubTransactionsContext.GetHashCode">
+            <summary>Sets the stub of DbContext.GetHashCode()</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Repositories.Fakes.StubTransactionsContext.GetHashCode01">
+            <summary>Sets the stub of DbContext.GetHashCode()</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Repositories.Fakes.StubTransactionsContext.InitializeStub">
+            <summary>Initializes a new instance of type StubTransactionsContext</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Repositories.Fakes.StubTransactionsContext.OnModelCreating(System.Data.Entity.DbModelBuilder)">
+            <summary>Sets the stub of DbContext.OnModelCreating(DbModelBuilder modelBuilder)</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Repositories.Fakes.StubTransactionsContext.OnModelCreatingDbModelBuilder">
+            <summary>Sets the stub of DbContext.OnModelCreating(DbModelBuilder modelBuilder)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Repositories.Fakes.StubTransactionsContext.SaveChanges">
+            <summary>Sets the stub of DbContext.SaveChanges()</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Repositories.Fakes.StubTransactionsContext.SaveChanges01">
+            <summary>Sets the stub of DbContext.SaveChanges()</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Repositories.Fakes.StubTransactionsContext.SaveChangesAsync">
+            <summary>Sets the stub of DbContext.SaveChangesAsync()</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Repositories.Fakes.StubTransactionsContext.SaveChangesAsync(System.Threading.CancellationToken)">
+            <summary>Sets the stub of DbContext.SaveChangesAsync(CancellationToken cancellationToken)</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Repositories.Fakes.StubTransactionsContext.SaveChangesAsync01">
+            <summary>Sets the stub of DbContext.SaveChangesAsync()</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Repositories.Fakes.StubTransactionsContext.SaveChangesAsyncCancellationToken">
+            <summary>Sets the stub of DbContext.SaveChangesAsync(CancellationToken cancellationToken)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Repositories.Fakes.StubTransactionsContext.Set(System.Type)">
+            <summary>Sets the stub of DbContext.Set(Type entityType)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Repositories.Fakes.StubTransactionsContext.Set``1">
+            <summary>Sets the stub of DbContext.Set()</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Repositories.Fakes.StubTransactionsContext.SetOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Data.Entity.DbSet{``0}})">
+            <summary>Sets stubs of Set()</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Repositories.Fakes.StubTransactionsContext.SetType">
+            <summary>Sets the stub of DbContext.Set(Type entityType)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Repositories.Fakes.StubTransactionsContext.ShouldValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry)">
+            <summary>Sets the stub of DbContext.ShouldValidateEntity(DbEntityEntry entityEntry)</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Repositories.Fakes.StubTransactionsContext.ShouldValidateEntityDbEntityEntry">
+            <summary>Sets the stub of DbContext.ShouldValidateEntity(DbEntityEntry entityEntry)</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Repositories.Fakes.StubTransactionsContext.ToString">
+            <summary>Sets the stub of DbContext.ToString()</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Repositories.Fakes.StubTransactionsContext.ToString01">
+            <summary>Sets the stub of DbContext.ToString()</summary>
+        </member>
+        <member name="M:iTrellis.TripCalculator.Repositories.Fakes.StubTransactionsContext.ValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry,System.Collections.Generic.IDictionary{System.Object,System.Object})">
+            <summary>Sets the stub of DbContext.ValidateEntity(DbEntityEntry entityEntry, IDictionary`2&lt;Object,Object&gt; items)</summary>
+        </member>
+        <member name="F:iTrellis.TripCalculator.Repositories.Fakes.StubTransactionsContext.ValidateEntityDbEntityEntryIDictionaryOfObjectObject">
+            <summary>Sets the stub of DbContext.ValidateEntity(DbEntityEntry entityEntry, IDictionary`2&lt;Object,Object&gt; items)</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Repositories.Fakes.StubTransactionsContext.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Repositories.Fakes.StubTransactionsContext.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:iTrellis.TripCalculator.Repositories.Fakes.StubTransactionsContext.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>
