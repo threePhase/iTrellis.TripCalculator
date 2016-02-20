@@ -10,15 +10,36 @@
     </div>
     <div>
         <h2>Search By ID</h2>
-        <input type="text" id="transactionId" size="5" />
+        ID: <input type="number" id="transactionId" size="5" />
         <input type="button" value="Search" onclick="lookupById();" />
         <p class="transaction" />
     </div>
     <div>
         <h2>Search By Owner</h2>
-        <input type="text" id="transactionOwner" size="5" />
+        Owner: <input type="text" id="transactionOwner" size="5" />
         <input type="button" value="Search" onclick="lookupByOwner();" />
         <ul class="transactionsByOwner" />
+    </div>
+    <div>
+        <h2>Add Transaction</h2>
+        Amount: <input type="number" id="amountAdd" size="5" />
+        Owner: <input type="text" id="ownerAdd" size="5" />
+        <input type="button" value="Add" onclick="addTransaction();" />
+        <p class="addResult" />
+    </div>
+    <div>
+        <h2>Update Transaction</h2>
+        ID: <input type="number" id="updateId" size="5" />
+        Amount: <input type="number" id="amountUpdate" size="5" />
+        Owner: <input type="text" id="ownerUpdate" size="5" />
+        <input type="button" value="Update" onclick="updateTransaction();" />
+        <p class="updateResult" />
+    </div>
+    <div>
+        <h2>Delete Transaction</h2>
+        ID: <input type="number" id="deleteId" size="5" />
+        <input type="button" value="Delete" onclick="deleteTransaction();" />
+        <p class="deleteResult" />
     </div>
     <div>
         <h2>Trip Calculator</h2>
