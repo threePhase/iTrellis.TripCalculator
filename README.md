@@ -51,11 +51,11 @@ of the endpoint:
 
 ### Demo ###
 
-There is a simple web interface located in iTrellis.TripCalculator/index.html
-and iTrellis.TripCalculator/script.js. This page demonstrates functionality
+There is a simple web interface located in `iTrellis.TripCalculator/index.html`
+and `iTrellis.TripCalculator/script.js`. This page demonstrates functionality
 of each of the API functions.
 
-To run the sample, simply begin debugging the project (by pressing F5 after
+To run the sample, simply begin debugging the project (by pressing **F5** after
 opening the project in Visual Studio). After starting the project a sample
 database will be created on LocalDb (called TransactionContext) which is seeded
 with some test data. Switch to Release config to prevent database from being
