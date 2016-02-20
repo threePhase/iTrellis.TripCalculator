@@ -46,7 +46,6 @@ namespace iTrellis.TripCalculator.Controllers
             return Ok(transaction);
         }
 
-
         // GET api/transactions
         [Route("{owner}")]
         public IHttpActionResult GetTransactionsByOwner(string owner)
@@ -62,6 +61,7 @@ namespace iTrellis.TripCalculator.Controllers
         }
 
         // PUT api/transactions/5
+        [Route("{id:int}")]
         public async Task<IHttpActionResult> PutTransaction(int id, Transaction transaction)
         {
             if (!ModelState.IsValid)
@@ -86,6 +86,7 @@ namespace iTrellis.TripCalculator.Controllers
 
         // POST api/transactions
         [ResponseType(typeof(Transaction))]
+        [Route("")]
         public async Task<IHttpActionResult> PostTransaction(Transaction transaction)
         {
             if (!ModelState.IsValid)
@@ -95,11 +96,13 @@ namespace iTrellis.TripCalculator.Controllers
 
             await this.repo.Add(transaction);
 
-            return CreatedAtRoute("DefaultApi", new { id = transaction.Id }, transaction);
+            return CreatedAtRoute("DefaultApi", 
+                new { controller = "transactions", id = transaction.Id }, transaction);
         }
 
         // DELETE api/transactions/5
         [ResponseType(typeof(Transaction))]
+        [Route("{id:int}")]
         public async Task<IHttpActionResult> DeleteTransaction(int id)
         {
             var transaction = await this.repo.Remove(id);
